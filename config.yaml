@@ -1,0 +1,11 @@
+listen_address: ":8080"
+redis: "localhost:6379"
+queue_size: 1000
+worker_pool_size: 10
+user_quota:
+  1:
+    request_per_minute: 3
+    size_per_month: 40
+  2:
+    request_per_minute: 5
+    size_per_month: 50
